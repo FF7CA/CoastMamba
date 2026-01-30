@@ -52,13 +52,13 @@ python train_supervision.py -c ./config/MinnanSLS/CoastMamba.py
 ## Testing
 
 ```
-python SOS_seg_test.py -c ./config/SLSD/CoastMamba.py -o /root/results/SLSD/CoastMamba --rgb -t 'lr'
+python SLS_seg_test.py -c ./config/SLSD/CoastMamba.py -o /root/results/SLSD/CoastMamba --rgb -t 'lr'
 ```
 ```
-python SOS_seg_test.py -c ./config/HRSC2016/CoastMamba.py -o /root/results/HRSC2016/CoastMamba --rgb -t 'lr'
+python SLS_seg_test.py -c ./config/HRSC2016/CoastMamba.py -o /root/results/HRSC2016/CoastMamba --rgb -t 'lr'
 ```
 ```
-python M4D_test.py -c ./config/MinnanSLS/CoastMamba.py -o /root/results/MinnanSLS/CoastMamba --rgb -t 'lr'
+python SLS_seg_test.py -c ./config/MinnanSLS/CoastMamba.py -o /root/results/MinnanSLS/CoastMamba --rgb -t 'lr'
 ```
 
 ## Thanks
